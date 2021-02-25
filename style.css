@@ -1,0 +1,51 @@
+header {
+  background-color: black;
+  padding-top: 40px
+  
+}
+header h1 {
+  font-size: 40px
+}
+header h1,h2 {
+  text-align: center;
+  color: whitesmoke;
+  font-family: 'Courier New', Courier, monospace;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+p,ul,hr {
+  font-family: 'Courier New', Courier, monospace;
+  color: gainsboro;
+  text-align: center;
+  list-style-position: inside;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+ol,a {
+  font-family: 'Courier New', Courier, monospace;
+  color: gainsboro;
+  text-align: center;
+  padding-left: 45%;
+  padding-right: 52%;
+}
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 5px;
+  width: 50%
+}
+footer {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  color: gainsboro;
+  background-color: gray;
+  padding: 5%;
+}
