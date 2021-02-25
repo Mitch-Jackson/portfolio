@@ -1,23 +1,24 @@
 header {
   background-color: black;
   padding-top: 40px
-  
 }
 header h1 {
   font-size: 40px
 }
+/* left these sepererate for font size*/
 header h1,h2 {
   text-align: center;
   color: whitesmoke;
   font-family: 'Courier New', Courier, monospace;
 }
+/*end intro text header*/
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
-p,ul,hr {
+p,ul /* kept away from ol due to padding */,hr {
   font-family: 'Courier New', Courier, monospace;
   color: gainsboro;
   text-align: center;
@@ -32,6 +33,7 @@ ol,a {
   padding-left: 45%;
   padding-right: 52%;
 }
+/*hr created for styling, don't edit*/
 hr {
   display: block;
   margin-top: 0.5em;
@@ -48,4 +50,11 @@ footer {
   color: gainsboro;
   background-color: gray;
   padding: 5%;
+}
+/*Pseudo*/
+a:hover {
+  color: #00FF00;
+}
+a:active {
+  color: #0000ff;
 }
