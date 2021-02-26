@@ -10,6 +10,7 @@ header h1,h2 {
   text-align: center;
   color: whitesmoke;
   font-family: 'Courier New', Courier, monospace;
+  height: 10px;
 }
 /*end intro text header*/
 .center {
