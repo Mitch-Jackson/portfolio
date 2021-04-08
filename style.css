@@ -12,6 +12,11 @@ header h1,h2 {
   font-family: 'Courier New', Courier, monospace;
   height: 10px;
 }
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 /*end intro text header*/
 .center {
   display: block;
@@ -20,6 +25,8 @@ header h1,h2 {
   width: 50%;
 }
 p,ul /* kept away from ol due to padding */,hr {
+  display: flex;
+  flex-direction: row;
   font-family: 'Courier New', Courier, monospace;
   color: gainsboro;
   text-align: center;
@@ -58,4 +65,8 @@ a:hover {
 }
 a:active {
   color: #0000ff;
+}
+.group {
+  display: flex;
+  flex-direction: row; /* or column */
 }
