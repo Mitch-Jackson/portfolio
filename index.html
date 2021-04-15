@@ -12,12 +12,12 @@
         <h1 class="logo">Mitch Jackson</h1>
         <h2>Software Developer</h2>
         <nav>
-          <ul id="menu">
+          <ol id="menu">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#contact">Contact</a></li>
-          </ul>
+          </ol>
         </nav>
         <!--Refer CSS for styling concerns-->
         <br>
@@ -25,10 +25,10 @@
         <img src="images/Mitch-portfolio-pic.JPG" alt="mitch-pic" class="center">
       </main>
       <article>
-        <h2>Hi There!</h2>
+        <h2 id="about">Hi There!</h2>
           <p class="center">
             <!--class used for centering-->
-            I'm Mitch, a software develober who lives in Redondo Beach, CA.
+            I'm Mitch, a software developer who lives in Redondo Beach, CA.
           <br>
           <br>
             I'm a huge geek who has always had a love for technology. As someone who has always taken a great effort in maintaining my own projects, you can garentee that:
@@ -45,21 +45,49 @@
           <p> I went to college at CSU Chico for health education. After I finished there I ended up continuing my education at UCLA Extension to become a licensed drug and alcohol counselor. For the next 8 years I worked in treatment centers all over Los Angeles before getting certified in life coaching and starting my private practice. 
           <br>
           <br>
-          One big thing I have taken away from all my experince is that I love helping people AND I love coding. Once I began my journey at Thinkful to learn software devolpment I knew I had found my passion.
+          One big thing I have taken away from all my experince is that I love helping people AND I love coding. Once I began my journey at Thinkful to learn software development I knew I had found my passion.
           <br>
           <br>
           I would be honored to assist you on your next project. 
           </p>
       <hr>
-        <h2>Contact Me</h2>
-          <p> I would love to hear from you! Feel free to look at my past projects and reach out to say hi.</p>
-          <!--hover and visted links applied-->
+        <h2 id="portfolio">Portfolio</h2>
           <ol>
-            <li><a href="https://github.com/Mitch-Jackson" target="_blank">GitHub</a></li>
-            <li><a href="https://www.linkedin.com/in/mitchell-jackson-cpc-17a078117/" target="_blank">LinkedIn</a></li>
+            <li><a href="project1" target="_blank">Project 1 coming soon!</a>
+            [Project Description]
+            </li>
+            <li><a href="project2" target="_blank">Project 2 coming soon!</a>
+              [Project Description]
+            </li>
           </ol>
+      <hr>
+        <h2 id="contact">Contact Me</h2>
+          <p> I would love to hear from you! Feel free to look at my past projects and reach out to say hi.</p>
+            <!--hover and visted links applied-->
+            <ol>
+              <li><a href="https://github.com/Mitch-Jackson" target="_blank">GitHub</a></li>
+              <li><a href="https://www.linkedin.com/in/mitchell-jackson-cpc-17a078117/" target="_blank">LinkedIn</a></li>
+              <li><a href="mailto:mitchjackson743@gmail.com" target="_blank">Email</a></li>
+            </ol>
           <br>
-          
+          <form action="https://formspree.io/f/xdoykooa" method="post">
+            <h2>Contact Form</h2>
+              <div class="group">
+                <div class="item-double">
+                  <form action="#" method="POST">
+                    <label for="user-name">Name:</label>
+                    <input id="user-name" type="text" name="name">
+
+                    <label for="user-email">Email:</label>
+                    <input id="user-email" type="text" name="email">
+
+                    <label for="user-message">Message:</label>
+                    <textarea id="user-message" name="message"></textarea>
+                    <button type="submit">Submit</button>
+                  </form>
+                </div>
+              </div> 
+          </form>         
       </article>
     </header>
     <!--grey after here-->
@@ -72,3 +100,4 @@
     
   </body>
 </html>
+
