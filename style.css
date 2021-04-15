@@ -12,13 +12,15 @@ header h1,h2 {
   font-family: 'Courier New', Courier, monospace;
   height: 10px;
 }
-header nav {
+header nav ul{
   display: flex;
   flex-direction: row;
   justify-content: center;
+  size: 300px;
 }
 /*end intro text header*/
 .center {
+  display: flex;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -26,20 +28,24 @@ header nav {
 }
 p,ul /* kept away from ol due to padding */,hr {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   font-family: 'Courier New', Courier, monospace;
   color: gainsboro;
   text-align: center;
   list-style-position: inside;
   padding-left: 10%;
   padding-right: 10%;
+  size: 320px;
 }
-ol,a {
+ol, a {
+  display: flex;
+  gap: 10%;
+  justify-content: center;
   font-family: 'Courier New', Courier, monospace;
   color: gainsboro;
   text-align: center;
-  padding-left: 45%;
-  padding-right: 52%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 /*hr created for styling, don't edit*/
 hr {
@@ -66,7 +72,20 @@ a:hover {
 a:active {
   color: #0000ff;
 }
-.group {
-  display: flex;
-  flex-direction: row; /* or column */
-}
+
+@media all and (min-width: 800px) {
+  section,
+  h1 {
+    padding: 0 10%;
+  }
+
+  .group {
+    display: flex;
+    flex-direction: row;
+    color: gainsboro;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: black;
+    padding: 5%;
+  }
