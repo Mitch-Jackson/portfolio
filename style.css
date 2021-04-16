@@ -9,7 +9,7 @@ header h1 {
 header h1,h2 {
   text-align: center;
   color: whitesmoke;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   height: 10px;
 }
 header nav ul{
@@ -29,7 +29,7 @@ header nav ul{
 p,ul /* kept away from ol due to padding */,hr {
   display: flex;
   flex-direction: column;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: gainsboro;
   text-align: center;
   list-style-position: inside;
@@ -41,7 +41,7 @@ ol, a {
   display: flex;
   gap: 10%;
   justify-content: center;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: gainsboro;
   text-align: center;
   padding-left: 5%;
@@ -73,6 +73,13 @@ a:active {
   color: #0000ff;
 }
 
+form {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: gainsboro;
+}
 @media all and (min-width: 800px) {
   section,
   h1 {
@@ -83,7 +90,7 @@ a:active {
     display: flex;
     flex-direction: row;
     color: gainsboro;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     align-items: center;
     margin-bottom: 10px;
     background-color: black;
