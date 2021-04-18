@@ -41,6 +41,7 @@ p,ul /* kept away from ol due to padding */,hr {
   size: 320px;
 }
 ol, a {
+  list-style-type: none;
   display: flex;
   gap: 10%;
   justify-content: center;
